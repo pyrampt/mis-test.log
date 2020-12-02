@@ -1,0 +1,103 @@
+Moonlight Internet Streaming Tester v5.5.1.0
+The current UTC time is: 11:21:15 SA
+GeForce Experience installed and GameStream is enabled
+Session 1 has active user
+connect(192.168.1.1, 80) successful
+AV products:
+displayName       
+Windows Defender  
+
+Firewall products:
+No Instance(s) Available.
+
+
+Testing GameStream ports via loopback
+Testing TCP 47984 with HTTP traffic...Success
+Testing TCP 47989 with HTTP traffic...Success
+Testing TCP 48010...Success
+Testing UDP 47998...Success
+Testing UDP 47999...Success
+Testing UDP 48000...Success
+Finding local IPv4 address...192.168.1.23
+Finding local IPv6 address...2402:800:6347:7d09:e021:bee1:9e3c:b440
+Testing GameStream ports via local network
+Testing TCP 47984 with HTTP traffic...Success
+Testing TCP 47989 with HTTP traffic...Success
+Testing TCP 48010...Success
+Testing UDP 47998...Success
+Testing UDP 47999...Success
+Testing UDP 48000...Success
+No UPnP IGD detected
+Detecting WAN IP address via NAT-PMP...FAILED -100
+Detecting WAN IP address via STUN...116.106.205.27
+Testing GameStream ports via IPv4 loopback server
+Testing reachability of relay server 129.146.148.89...Reachable
+Testing TCP 47984 with HTTP traffic...Failed: 12002
+Testing TCP 47989 with HTTP traffic...Failed: 12002
+Testing TCP 48010...Timeout
+Testing UDP 47998...Timeout
+Testing UDP 47999...Timeout
+Testing UDP 48000...Timeout
+Testing GameStream ports via IPv6 loopback server
+Testing reachability of relay server 2600:3c04::f03c:92ff:fe28:f446...Reachable
+Testing TCP 47984 with HTTP traffic...Failed: 12002
+Testing TCP 47989 with HTTP traffic...Failed: 12002
+Testing TCP 48010...Timeout
+Testing UDP 47998...Timeout
+Testing UDP 47999...Timeout
+Testing UDP 48000...Timeout
+Internet GameStream connectivity check failed.
+
+First, try restarting your router. If that fails, check that UPnP is enabled in your router settings. For more information and workarounds, click the Help button.
+
+The following ports were not forwarded properly:
+TCP 47984
+TCP 47989
+TCP 48010
+UDP 47998
+UDP 47999
+UDP 48000
+
+--------------- CURRENT MISS LOG -------------------
+Moonlight Internet Streaming Service v5.5.1.0
+The current UTC time is: 11:20:37 SA
+GameStream is ON!
+Finding upstream IPv4 hops via traceroute...
+Hop 0: 125.235.251.203
+Hop 1: 115.79.13.4
+Hop 2: 27.68.208.118
+Hop 3: 27.68.208.109
+Found 4 hops
+Starting port mapping update on default gateway to local machine...
+sendpublicaddressrequest() failed: -10
+UPnP IPv4 IGD discovery completed with error code: 0
+No UPnP device found!
+Updating PCP port mapping for TCP 47984...NO RESPONSE
+Updating PCP port mapping for TCP 47989...NO RESPONSE
+Updating PCP port mapping for TCP 48010...NO RESPONSE
+Updating PCP port mapping for UDP 47998...NO RESPONSE
+Updating PCP port mapping for UDP 47999...NO RESPONSE
+Updating PCP port mapping for UDP 48000...NO RESPONSE
+Updating PCP port mapping for UDP 48002...NO RESPONSE
+Updating PCP port mapping for UDP 48010...NO RESPONSE
+No valid upstream IPv4 address found!
+Going to sleep...
+
+----------------- OLD MISS LOG ---------------------
+Moonlight Internet Streaming Service v5.5.1.0
+The current UTC time is: 11:19:42 SA
+GameStream is ON!
+Finding upstream IPv4 hops via traceroute...
+Hop 0: 125.235.251.203
+Hop 1: 115.79.13.4
+Hop 2: 27.68.208.118
+Hop 3: 27.68.208.113
+Found 4 hops
+Starting port mapping update on default gateway to local machine...
+UPnP IPv4 IGD discovery completed with error code: 0
+NAT-PMP public address request failed: -100
+No UPnP IGD found!
+--------------- CURRENT GSV6FWD LOG -------------------
+
+----------------- OLD GSV6FWD LOG ---------------------
+Failed to find old GSv6Fwd log
